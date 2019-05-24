@@ -12,7 +12,7 @@ public class LoopsInRange {
 
         double range = 0.1;
 
-        while ((i <= 3) && i >= 0) {
+        while ((i <= 3.1) && i >= 0) {
 
             System.out.printf("%.1f%n", i);
             i = i + range;
@@ -26,11 +26,11 @@ public class LoopsInRange {
 
             i=i+range;
 
-            System.out.printf("%.1f%n", i);
-            i++;
+            System.out.printf("%.1f%n", i=i+range);
 
 
-        }while ((i < 3) && i >=0);
+
+        }while ((i < 3.1) && i >=0);
 
         }
     }
